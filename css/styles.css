@@ -12,16 +12,24 @@ body {
 	background-color: #EEEBF4;
 }
 
-.top-container {
-	margin: 0 auto;
-	width: 750px;
-	height: 300px;
-	border: 1px solid;
-}
-
 header {
 	font-weight: bold;
 	font-size: 2.5em;
 	font-family: 'Alex Brush', cursive;
 	text-align: center;
+	color: #AA1100;
+	padding-bottom: 2px;
+}
+
+.top-container {
+	margin: 0 auto;
+	width: 750px;
+	height: 300px;
+}
+
+.search-area {
+	margin: 0 auto;
+	border: solid 1px;
+	width: 600px;
+	height: 200px;
 }
