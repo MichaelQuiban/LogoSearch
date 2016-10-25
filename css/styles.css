@@ -63,3 +63,10 @@ Null until image sucks, which is never.*/
 	left: 15em;
 }
 
+.img-list-gray {
+	list-style: none;
+}
+
+.float-right {
+	float: right;
+}
