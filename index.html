@@ -3,10 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Logo Search</title>
-	<link rel = "stylesheet" href = "css/font-awesome-4.6.3/css/font-awesome.min.css">
 	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel = "stylesheet" href = "css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link href = "https://fonts.googleapis.com/css?family=PT+Sans" rel= "stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
 
 </head>
@@ -17,7 +16,27 @@
 		<header>Society Education Programs</header>
 		<div class = "search-area">
 			<!-- Dropdown Area -->
+			<div class="dropdown">
+			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			    PROGRAM TYPE
+			    <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			    <li><a href="#">SCHOLARSHIP PROGRAM</a></li>
+			    <li><a href="#">LOAN PROGRAM</a></li>
+			  </ul>
+			</div>
 
+			<div class="dropdown">
+			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			    EDUCATION LEVEL
+			    <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			    <li><a href="#">KINDERGARTEN</a></li>
+			    <li><a href="#">HIGH SCHOOL</a></li>
+			  </ul>
+			</div>
 			<!-- Submit Button-->
 
 		</div>
@@ -26,6 +45,7 @@
 	<section class = "logo-results">test</section>
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 	</body>
 </html>
