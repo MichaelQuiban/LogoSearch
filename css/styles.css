@@ -12,6 +12,11 @@ body {
 	background-color: #FFF;
 }
 
+.logo {
+	position: relative;
+	left: 8.5em;
+	padding-bottom: 1em;
+}
 /* header {
 	font-size: 2.5em;
 	font-family: 'Alex Brush', cursive;
@@ -56,3 +61,4 @@ Null until image sucks, which is never.*/
 	top: 5em;
 	left: 15em;
 }
+
