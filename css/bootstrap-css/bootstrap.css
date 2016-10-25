@@ -3530,7 +3530,7 @@ tbody.collapse.in {
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #E2DCDC;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
@@ -3538,6 +3538,7 @@ tbody.collapse.in {
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
 }
 .dropdown-menu.pull-right {
   right: 0;
@@ -3555,7 +3556,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #333;
+  color: red;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,

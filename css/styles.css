@@ -9,7 +9,7 @@ a:link, a:visited, a:active {
 }
 
 body {
-	background-color: #EEEBF4;
+	background-color: #FFF;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 	text-align: center;
 	color: #AA1100;
 	padding-bottom: 8px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .top-container {
@@ -32,4 +32,5 @@ header {
 	border: solid 1px;
 	width: 600px;
 	height: 200px;
+	background-color: rgb(244, 244, 244);
 }
