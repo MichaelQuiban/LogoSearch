@@ -38,11 +38,12 @@ Null until image sucks, which is never.*/
 	border: solid 1px;
 	width: 600px;
 	height: 200px;
-	background-color: rgb(244, 244, 244);
+	background-color: #F4F4F4;
 }
 
 .gray-results {
-
+	margin: 0 auto;
+	position:relative;
 }
 
 .color-results {
@@ -55,7 +56,7 @@ Null until image sucks, which is never.*/
 	color: #FFF;
 	font-weight: bold;
 	font-family: 'Libre Baskerville', serif;
-	background-color: rgb(155, 38, 47);
+	background-color: #9B262F;
 	border: 0;
 	position:relative;
 	top: 5em;
