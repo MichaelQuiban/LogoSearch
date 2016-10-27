@@ -65,8 +65,12 @@ Null until image sucks, which is never.*/
 
 .img-list-gray {
 	list-style: none;
+	margin: 0 auto;
+	position:relative;
+	display: inline;
+	float:center;
 }
 
 .float-right {
-	float: right;
+
 }
