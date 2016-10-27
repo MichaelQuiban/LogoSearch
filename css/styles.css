@@ -50,6 +50,10 @@ Null until image sucks, which is never.*/
 	
 }
 
+.selections {
+	display: inline;
+}
+
 .search {
 	width: 145px;
 	height: 35px;

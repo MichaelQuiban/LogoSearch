@@ -1,79 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Logo Search</title>
-	<link rel = "stylesheet" href = "css/bootstrap-css/bootstrap.css">
-	<link rel = "stylesheet" href = "css/styles.css">
-	<link href = "https://fonts.googleapis.com/css?family=PT+Sans" rel= "stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Logo Search</title>
+  <link rel = "stylesheet" href = "css/bootstrap-css/bootstrap.css">
+  <link rel = "stylesheet" href = "css/styles.css">
+  <link href = "https://fonts.googleapis.com/css?family=PT+Sans" rel= "stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
 </head>
-	<body>
-	<p class = "shameless-bump">shameless-bump: <a href = "">Github</a> + <a href = "">Twitter</a> </p>
+  <body>
+  <p class = "shameless-bump">shameless-bump: <a href = "">Github</a> + <a href = "">Twitter</a> </p>
 
-	<div class = "top-container">
-		<!--Society Education Programs Logo-->
-		<img class = "logo" src="https://s10.postimg.org/548tg9bhl/logo.jpg">
-		<div class = "search-area">
-			<!-- Dropdown Area #1-->
-			<div class="dropdown">
-			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			    PROGRAM TYPE
-			    <span class="caret"></span>
-			  </button>
-				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-				    <li><a href="#">SCHOLARSHIP PROGRAM</a></li>
-				    <li><a href="#">LOAN PROGRAM</a></li>
-				  </ul>
-			</div>
+  <div class = "top-container">
+    <!--Society Education Programs Logo-->
+    <img class = "logo" src="https://s10.postimg.org/548tg9bhl/logo.jpg">
+    <div class = "search-area">
+      <div class="row">
+      <!-- Dropdown Area #1-->        
+        <div class="col-sm-6">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              PROGRAM TYPE
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">SCHOLARSHIP PROGRAM</a></li>
+                <li><a href="#">LOAN PROGRAM</a></li>
+              </ul>
+          </div>
+        </div>
+        <!-- Dropdown Area #2-->
+        <div class="col-sm-6">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              EDUCATION LEVEL
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">KINDERGARTEN</a></li>
+                <div class = "divider"></div>
+                <li><a href="#">HIGH SCHOOL</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Search Button-->
+      <button class = "search" type = "Submit">SEARCH</button>
+    </div>
+  </div>
 
-			<!-- Dropdown Area #2-->
-			<div class="dropdown">
-			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			    EDUCATION LEVEL
-			    <span class="caret"></span>
-			  </button>
-				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-				    <li><a href="#">KINDERGARTEN</a></li>
-				    <div class = "divider"></div>
-				    <li><a href="#">HIGH SCHOOL</a></li>
-				  </ul>
-			</div>
-			<!-- Search Button-->
-			<button class = "search" type = "Submit">SEARCH</button>
-		</div>
-	</div>
+  <!--Grayed out results-->
+  <section class = "gray-results">
+  <ul class = "img-list-gray">
+    <li><img src = "https://s22.postimg.org/hixds2n01/aci_fade.png"></li>
+    <li><img src = "https://s22.postimg.org/lulzh2twx/acm_fade.png"></li>
+    <li><img src = "https://s22.postimg.org/m9x9a3fu9/afe_fade.png"></li>
+    <li class = "float-right"><img src = "https://s22.postimg.org/lulzh2twx/acm_fade.png"></li>
+    <li><img src = "https://s22.postimg.org/m9x9a3fu9/afe_fade.png"></li>
+    <li><img src = "https://s22.postimg.org/hixds2n01/aci_fade.png"></li>
+    <li><img src = "https://s22.postimg.org/lulzh2twx/acm_fade.png"></li>
+    <li><img src = "https://s22.postimg.org/m9x9a3fu9/afe_fade.png"></li>
+  </ul>
+  </section>
 
-	<!--Grayed out results-->
-	<section class = "gray-results">
-	<ul class = "img-list-gray">
-		<li><img src = "https://s22.postimg.org/hixds2n01/aci_fade.png"></li>
-		<li><img src = "https://s22.postimg.org/lulzh2twx/acm_fade.png"></li>
-		<li><img src = "https://s22.postimg.org/m9x9a3fu9/afe_fade.png"></li>
-		<li class = "float-right"><img src = "https://s22.postimg.org/lulzh2twx/acm_fade.png"></li>
-		<li><img src = "https://s22.postimg.org/m9x9a3fu9/afe_fade.png"></li>
-		<li><img src = "https://s22.postimg.org/hixds2n01/aci_fade.png"></li>
-		<li><img src = "https://s22.postimg.org/lulzh2twx/acm_fade.png"></li>
-		<li><img src = "https://s22.postimg.org/m9x9a3fu9/afe_fade.png"></li>
-	</ul>
-	</section>
+  <!--Colored results-->
+  <section class = "color-results">
+    <img src = "https://s22.postimg.org/pzww2zrox/aci_color.png">
+    <img src = "https://s22.postimg.org/onf713u9d/acm_color.png">
+    <img src = "https://s22.postimg.org/m9x9a3fu9/afe_color.png">
+    <img src = "https://s22.postimg.org/onf713u9d/acm_color.png">
+    <img src = "https://s22.postimg.org/m9x9a3fu9/afe_color.png">
+    <img src = "https://s22.postimg.org/pzww2zrox/aci_color.png">
+    <img src = "https://s22.postimg.org/onf713u9d/acm_color.png">
+    <img src = "https://s22.postimg.org/m9x9a3fu9/afe_color.png">
+  </section>
 
-	<!--Colored results-->
-	<section class = "color-results">
-		<img src = "https://s22.postimg.org/pzww2zrox/aci_color.png">
-		<img src = "https://s22.postimg.org/onf713u9d/acm_color.png">
-		<img src = "https://s22.postimg.org/m9x9a3fu9/afe_color.png">
-		<img src = "https://s22.postimg.org/onf713u9d/acm_color.png">
-		<img src = "https://s22.postimg.org/m9x9a3fu9/afe_color.png">
-		<img src = "https://s22.postimg.org/pzww2zrox/aci_color.png">
-		<img src = "https://s22.postimg.org/onf713u9d/acm_color.png">
-		<img src = "https://s22.postimg.org/m9x9a3fu9/afe_color.png">
-	</section>
-
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
-	</body>
+  </body>
 </html>
